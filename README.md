@@ -8,21 +8,11 @@ This webpage is a presentation of our final project for Software Development dip
 The project is a MERN stack Dashboard for a Solar Panel Installation. It provides a solution for managing various aspects of the companys future needs for operation.
 The dashboard features secure login functionality, displays current weather information, and includes and Inventory page for managing stock with add, delete and edit functions. Additionally, there is a Users page for administrators to manage user profiles and details. The project also includes a roadmap with many more feautres planned for future development.
 
-## Technologies Used
+## Project Proposal + Project Repository
 
-- MongoDB: NoSQL database for storing data.
-- Express.js: Web application framework for building the backend server.
-- React.js: JavaScript library for building the user interface.
-- Node.js: JavaScript runtime environment for server-side development.
+Check out this repository for the Project Proposal: https://github.com/HadleysHope/IT6041-Team-DDT.git
 
-## Roadmap
-
-The following are planeed features and enhancements for future development.
-
--
--
--
--
+Check out this repository for the SolarLifeDashboard Web app: https://github.com/HadleysHope/SolarLifePlatform.git
 
 ## Contact
 
