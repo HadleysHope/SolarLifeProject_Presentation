@@ -24,8 +24,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
+        <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./project_planning.html">Project Planning</a>
@@ -62,17 +62,110 @@
         <h2>Design Decisions</h2>
 
         <h3>Tech Stack Choices</h3>
-        <p>Explain the technology stack choices made for the project, including the programming languages, frameworks, libraries, and tools used.</p>
+<p>The project leverages the MERN (MongoDB, Express, React, Node) stack, incorporating 
+  specific programming languages, frameworks, libraries, and tools to meet the project's
+   requirements and goals.</p>
+<ul>
+  <li><strong>MongoDB:</strong> As the chosen document database, MongoDB provides a 
+    schema-less and non-relational approach, allowing for flexible data management. Its 
+    compatibility with JSON format simplifies data manipulation and supports scalability,
+     making it an ideal choice for the project.</li>
+  <li><strong>Express.js:</strong> Express.js, a web application framework based on 
+    Node.js, enables the development of efficient and robust web apps and APIs. By 
+    utilizing Express.js, the project benefits from streamlined server-side code creation
+     and the ability to build REST APIs, enhancing data retrieval through HTTP queries.
+    </li>
+  <li><strong>React.js:</strong> React.js, a popular JavaScript library, powers the 
+    front-end development of the project. Its declarative nature facilitates the creation
+     of dynamic and responsive user interfaces, optimizing page loading times and 
+     enabling smooth animations. React.js allows for code reusability and simplifies the
+      management of view state and data changes.</li>
+  <li><strong>Node.js:</strong> Node.js serves as the premier JavaScript web server, 
+    leveraging its lightning-fast performance and scalability to handle network 
+    applications. Its unified approach to web development enables the use of a single 
+    programming language for both the server and client sides. Node.js modules facilitate
+     code organization and enhance development efficiency.</li>
+</ul>
+<p>The chosen tech stack of MongoDB, Express.js, React.js, and Node.js creates a 3-tier 
+  architecture (frontend, backend, and database) fully utilizing JavaScript and JSON. 
+  React.js handles the client-side user interface, Express.js manages server-side 
+  operations, and Node.js provides a scalable server environment. MongoDB seamlessly 
+  integrates with the stack, allowing for efficient data storage and retrieval.</p>
+<p>These tech stack choices were made to ensure efficient development, scalability, 
+  flexibility, and optimal performance throughout the project. The MERN stack, with its 
+  comprehensive set of tools and libraries, provides a solid foundation for building 
+  modern and feature-rich web applications.</p>
 
-        <h3>Architectural Considerations</h3>
-        <p>Discuss the architectural considerations taken into account during the design phase, such as the overall system architecture, database structure, API design, etc.</p>
+  <div class="gallery-item col-md-2">
+    <img src="images/Mernstack.png" alt="MERN Stack">
+    <div class="caption">MERN stack</div>
+  </div>
 
-        <h3>User Interface Design Principles</h3>
-        <p>Outline the design principles followed to create an intuitive and user-friendly interface. Explain how the user interface was designed to meet the needs of the solar panel installation company and its users.</p>
+  <h3>Architectural Considerations</h3>
+  <p>During the design process, we carefully evaluated various options for the architectural components of the project:</p>
+  <ul>
+    <li><strong>Front-End:</strong> The decision came down to React or Django. Despite 
+      having limited experience with React and more experience with Django, we opted to
+       expand our knowledge by exploring something new. We believed that React would 
+       provide a more robust user experience, and we were particularly interested in 
+       implementing authentication using web tokens and managing users from a separate 
+       database instead of relying solely on the built-in Django admin.</li>
+    <li><strong>Database and Authentication:</strong> After considering options such as 
+      SQL databases and Firebase, we settled on MongoDB for its flexibility in handling
+       non-structured data. Given the potential for developing unknown features in the 
+       future, MongoDB's scalability became a crucial factor. While we had previous 
+       experience with Firebase for authentication, we found it challenging to implement
+        and opted for MongoDB as a more user-friendly alternative.</li>
+    <li><strong>Express and Node.js:</strong> Due to our prior experience and 
+      familiarity, Express and Node.js were the natural choices for server-side 
+      implementation. We recognized the efficiency and reliability of these technologies
+       and their compatibility with the overall stack.</li>
+  </ul>
 
+  <p>By carefully considering the strengths and weaknesses of each option, we made 
+    architectural choices that would enhance the project's functionality, user 
+    experience, scalability, and development process. The combination of React, 
+    MongoDB, Express, and Node.js provided a solid foundation for achieving our project 
+    goals and delivering a high-quality web application.</p>
+      
+
+    <h3>UI Design Decisions</h3>
+    <p>When designing the user interface (UI), we prioritized delivering a top-notch user experience. Our goal was to create an app with simple and intuitive navigation, leveraging the use of color to achieve various objectives:</p>
+    <ul>
+      <li>Visual Appeal and Aesthetics: We aimed to create a visually appealing and aesthetically pleasing interface that would engage users.</li>
+      <li>Brand Identity: We carefully selected colors to align with our brand's identity and convey its personality, ensuring consistency throughout the app.</li>
+      <div class="row">
+        <div class="gallery-item col-md-2">
+          <img src="images/ColorScheme.JPG" alt="Branding ColourScheme">
+          <div class="caption">Colour Scheme</div>
+        </div>
+      <li>Communication and Emotional Impact: Colors were chosen strategically to communicate messages, evoke specific emotions, and enhance user engagement.</li>
+      <li>Visual Hierarchy and Information Organization: Through the use of color, we established a clear visual hierarchy and organized information to guide users and prioritize their attention.</li>
+      <li>Accessibility and Usability: We considered color contrast to ensure readability and usability for all users, adhering to accessibility guidelines for an inclusive experience.</li>
+    </ul>
+    <p>To achieve these objectives, our UI design process involved several stages,
+       including <a href="./sketching.html">sketching</a>,<a href="./wireframes.html">
+      wireframing</a>, and <a href="./prototype.html">prototyping.</a> We iteratively refined the 
+       design to ensure an optimal user experience that met our goals and provided a 
+       visually pleasing interface.</p>
+    <div class="row">
+      <div class="gallery-item col-md-2">
+        <img src="images/first_wireframes.JPG" alt="Wireframes">
+        <div class="caption">Sketches</div>
       </div>
-    </section>
-  </main>
+      <div class="gallery-item col-md-2">
+        <img src="images/wireframe_inventory.jpg" alt="Wireframes">
+        <div class="caption">Wireframes</div>
+      </div>
+      <div class="gallery-item col-md-2">
+        <img src="images/home.JPG" alt="Prototype">
+        <div class="caption">Prototype</div>
+      </div>
+    </div>
+  
+  </div>
+  </section>
+</main>
 
   <!-- Bootstrap JS -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.52/js/bootstrap.min.js"></script>

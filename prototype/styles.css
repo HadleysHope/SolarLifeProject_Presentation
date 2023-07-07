@@ -1,0 +1,392 @@
+:root {
+  --primary: #9ab41e;
+  --secondary--racing-green: #050c07;
+  --secondary--primrose: #eae29c;
+  --secondary--golden-sand: #f2dd6b;
+  --accent--sea-green: #318935;
+  --accent--wild-willow: #adc068;
+  --accent--olive-drab: #5e962d;
+  --accent--fern-green: #4f8440;
+  --accent--green-pea: #26743c;
+  --white: white;
+  --black: black;  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--secondary--primrose);
+}
+
+.log-in {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.login-form {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--secondary--racing-green);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  opacity: 0.8;
+  width: 500px;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  text-align: left;
+  color: var(--secondary--primrose);
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.input-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: var(--primary);
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.input-icon i {
+  color: var(--black);
+  margin-right: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-color: var(--secondary--primrose);
+  border-radius: 5px;
+  background-color: var(--secondary--primrose);
+  color: var(--accent--wild-willow);
+}
+
+/* ToDo:
+          Input: Check Blue Border properties on hover
+          Changing Checkbox standards.
+*/
+
+.remember-me {
+  color: var(--secondary--primrose);
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.remember-me input[type="checkbox"] {
+  margin-right: 5px;
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  width: 16px;
+  height: 16px;
+  outline: none;
+  border: 2px solid var(--secondary--primrose);
+  border-radius: 3px;
+}
+
+.remember-me input[type="checkbox"]:checked {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.remember-me input[type="checkbox"]:hover {
+  background-color: var(--secondary--golden-sand);
+  border-color: var(--secondary--golden-sand);
+}
+
+.remember-me input[type="checkbox"]:checked::before {
+  content: "\2714";
+  font-size: 12px;
+  position: relative;
+  top: -2px;
+  left: -2px;
+  color: var(--secondary--primrose);
+}
+
+
+
+button {
+  padding: 10px 20px;
+  margin-left: auto;
+  background-color: var(--primary);
+  color: var(--black);
+  border-radius: 5px;
+  border: none;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+h5 {
+  text-align: center;
+  color: var(--accent--green-pea);
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary--racing-green);
+  padding: 10px 10px 0px 10px;
+  color: var(--primary);
+}
+
+.dashboard-logo img {
+  height: 50px; /* Adjust the height as needed */
+}
+
+.dashboard-info {
+  display: flex;
+  align-items: center;
+}
+
+.welcome-label {
+  margin-right: 10px;
+}
+
+.settings.icon {
+  color: white;
+  font-size: 20px;
+}
+
+.settings .icon:hover {
+  cursor: pointer;
+}
+
+
+.dashboard-heading {
+  flex: 1;
+  text-align: right;
+  color: var(--primary);
+  font-size: 26px;
+}
+
+.weather {
+  background-color: var(--secondary--racing-green);
+  text-align: center;
+  padding: 0px 10px;
+  height: 100px;
+}
+
+.weather-label {
+  font-weight: bold;
+  color: var(--accent--fern-green);
+}
+
+.weather-table {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.weather-table td {
+  padding: 10px 5px;
+  color: var(--secondary--golden-sand);
+}
+
+.weather-table .day {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.weather-table i {
+  color: var(--white);
+  font-size: 10px;
+}
+
+.weather-table .temp {
+  font-weight: bold;
+  color: var(--secondary--golden-sand);
+  font-size: 10px;
+}
+
+.weather-table td:not(:last-child) {
+  padding-right: 5px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  background-color: var(--secondary--racing-green);
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  color: var(--primary);
+}
+
+.content-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color:inherit;
+  cursor: pointer;
+}
+
+.content-link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content-link:hover {
+  color: var(--white)
+}
+
+.content-link.active {
+  color: white;
+}
+
+.dashboard-content {
+  background-color: var(--secondary--primrose);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  flex: 1; /* Take up the remaining vertical space */
+}
+
+.home-content {
+  background-color: var(--secondary--primrose);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  max-width: 1400px; /* Adjust the maximum width as needed */
+  width: 100%;
+  justify-self: center; /* Center horizontally within the parent */
+  align-self: center; /* Center vertically within the parent */
+}
+.home {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stock-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        background-color: transparent; /* Set the background color to transparent */
+        padding: 0; /* Remove any padding */
+        margin-bottom: 20px; /* Add a bottom margin for spacing */
+    }
+
+    .panel {
+        width: 300px;
+        box-sizing: border-box;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        color: var(--secondary--racing-green);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: relative;
+        margin-right: 10px;
+    }
+
+
+    .panel h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .placeholder {
+        font-size: 14px;
+        color: var(--white);
+    }
+
+    /* Background Icons */
+
+    .panel:nth-child(1) {
+        background-color: var(--accent--fern-green);
+    }
+
+    .panel:nth-child(2) {
+        background-color: var(--primary);
+    }
+
+    .panel:nth-child(3) {
+        background-color: var(--accent--green-pea);
+    }
+
+ .collapsible {
+  background-color: #f9f9f9;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+.active {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 10px;
+  display: none;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+/* CSS for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+

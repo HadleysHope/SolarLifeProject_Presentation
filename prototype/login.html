@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SolarLife - Login</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+  <div class="log-in">
+    <video autoplay="" loop="" playsinline="" muted="">
+    <source src="https://solarlife.co.nz/wp-content/uploads/2023/04/Solar_life_intro.mp4">
+    </video>
+    <div class="login-form">
+      <div class="logo">
+        <img src="solarlifelogo.png" alt="SolarLife Logo" class="logo">
+      </div>
+      <form id="login-form">
+        <h1>Sign In</h1>
+        <div class="input-icon">
+          <i class="fas fa-user"></i>
+          <input type="email" id="email" placeholder="Username" required>
+        </div>
+        <div class="input-icon">
+          <i class="fas fa-lock"></i>
+          <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <div class="remember-me">
+          <input type="checkbox" id="remember" name="remember">
+          <label for="remember">Remember Me</label>
+        </div>
+        <button class="button" id="loginButton">Login</button>
+        <h5>Forgot your password?</h5>
+      </form>
+    </div>
+  </div>  
+
+
+  <script src="script.js"></script>
+</body>
+</html>
