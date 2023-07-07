@@ -35,6 +35,25 @@
       color: #666;
       margin-bottom: 10px;
     }
+
+    .gallery-item {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .gallery-item .caption {
+    text-align: center;
+    margin-top: 10px;
+  }
   </style>
 </head>
 
@@ -46,66 +65,123 @@
 
     <h2>Project Proposal</h2>
 
-    <h3> Design + Planning: Tasks</h3>
-    <p>placeholder</p>
+    <p>During the Project Proposal stage this was my contribution to the 
+    Design Phase: </p>
+    <ul>
+        <li>Formed Team DDT with Mariano</li>
+        <li>Set up <a href="https://github.com/HadleysHope/IT6041-Team-DDT/blob/b3b0d639fb7d0f53fb65853c08a15bb7a6648c59/Planning%20Document/Collaboration_Sessions/BrainstormSession.JPG">BrainstormSession</a></li>
+        <li>Developed <a href="https://github.com/HadleysHope/IT6041-Team-DDT/blob/b3b0d639fb7d0f53fb65853c08a15bb7a6648c59/Planning%20Document/Collaboration_Sessions/system_context_Diagram.JPG">System Context Diagram</a></li>
+        <li>Facilitated <a href="https://github.com/HadleysHope/IT6041-Team-DDT/blob/b3b0d639fb7d0f53fb65853c08a15bb7a6648c59/Planning%20Document/Task1%2B2_Team_Contract%2BOrganization.pdf">Team Contract</a></li>
+        <li>Setup Kanban Board</li>
+        <li>Created <a href="./wireframes.html">Wireframes</a></li>
+        <li>Created <a href="./prototype.html">Prototype</a></li>
+        <li>Created <a href="https://github.com/HadleysHope/IT6041-Team-DDT/blob/b3b0d639fb7d0f53fb65853c08a15bb7a6648c59/Planning%20Document/GanttChart.pdf">Gantt Chart</a></li>
+        <li>Developed <a href="https://github.com/HadleysHope/IT6041-Team-DDT/blob/b3b0d639fb7d0f53fb65853c08a15bb7a6648c59/Planning%20Document/Sprint_Iteration_Timeline.md">Sprint Iteration Timeline</a></li>
+        <li>Contributed to <a href="https://github.com/HadleysHope/IT6041-Team-DDT/blob/b3b0d639fb7d0f53fb65853c08a15bb7a6648c59/Planning%20Document/Web_Design_Document_vfinal_draft.pdf">Web Design Document</a></li>
+    </ul>
 
-    <h3>Design Feature</h3>
-    <p>[Write a summary of your experience]</p>
+    <p>The Project Proposal stage could not have gone any smoother, from experience of 
+        working together before we utilised our knowledge of each others strengths to formulate 
+        a strategy that served us well throughout the project.
+    </p>
 
-    <h3>Reflection of Teamwork</h3>
-    <p>What Went Well</p>
-    <p>What Issues Met and Resolved</p>
-    <p>What Could be Improved</p>
-    <p>Reflection on Sustainability, Equity, Social Issue</p>
+    <p>What Went Well:</p>
+    <p>The team Organisation and brainstorming was super efficient to get the project up 
+        and running, from Mariano experience in using similar technologies and contact with his brother 
+        to establish the idea of a dashboard that could benefit his company. This made it 
+        very easy to come up with a design and idea. 
+    </p>
+
+    <p>The issue was how to implement our idea utilising a full stack development, which  neither of 🇺s 
+        had experience of. After some research and discussion, it was an easy decision to make it 
+        a MERN stack based on our knowledge and an adequate challenge to learn something that would help us in the future.
+    </p>
+    <p>It did take a while to extract all the required information from the client, due to 
+        availability. Ideally, starting work on the execution could have started earlier.
+    </p>
+    <p>One of the main reasons we chose this project was its connection to sustainability.</p>
 
     <hr>
 
     <h2>Project Execution</h2>
+    <a href="https://github.com/HadleysHope/IT6041-Team-DDT/blob/b3b0d639fb7d0f53fb65853c08a15bb7a6648c59/Planning%20Document/Sprint_Iteration_Timeline.md">Sprint Timeline</a>
     
     <h3>Sprint 1: Authentication </h3>
-    <p>Most Valuable Lesson</p>
-    <p>Frustrations</p>
-    <p>Team Role</p>
-    <p>Tasks Completed</p>
-    <p>Implementation Feature Commentary + Evidence</p>
-    <p>Testing Commentary</p>
-    <p>What Went Well</p>
-    <p>What Issues were met and how resolved</p>
+    <p>Most Valuable Lesson of setting up Authentication was in the learning process, 
+        making sure that when learning a new framework or methods, that the information is relevant 
+        to the version you are using. Our frustration was the current packages and frameworks,
+        we learnt from tutorials were out of date making it difficult to accomplish in the time we set ourselves.
+        My Team Role in this sprint was to setup the Front-End side with React, and start the login page 
+        and dashboard user interface. 
+        It was a learning experience converting my design of HTML,CSS and Javascript into React, which I had 
+        very little experience before.
+        Testing the interaction between components and running development code to simulate 
+        the interaction between login page and dashboard before connecting front end to backend.
+        Overall this stage went well and ontime setting up the front and backend, or so we thought until Sprint 2.
+    </p>
 
     <h3>Sprint 2: Inventory Management</h3>
-    <p>Most Valuable Lesson</p>
-    <p>Frustrations</p>
-    <p>Team Role</p>
-    <p>Tasks Completed</p>
-    <p>Implementation Feature Commentary + Evidence</p>
-    <p>Testing Commentary</p>
-    <p>What Went Well</p>
-    <p>What Issues were met and how resolved</p>
+    <p>Most valuable lesson in this sprint was you cannot plan correctly for every
+        stage and having patience and resilience when dealing with a tricky situation.
+        This was due to our frustration with connecting the frontend to the backend. 
+        My role in this stage was to Develop the Inventory page, create the components and 
+        the routes with authentication to the backend. 
+        This Sprint became all about the authentication and being able to login with verification.
+        We forecast a week for this sprint but it took a little over two as we struggled with getting the login to work.
+        Part of the reason for this was the multiple of tutorials on MERN stacks we had watched, that featured
+        out of date packages for react-dom-router, react, Axios even though they were only 6 months old. 
+        Navigating the various bits of code to develop the correct method, was tricky and having to 
+        search through documentation to find the solution which we did in the end for verification. 
+        Whilst we got Authentication with JSON Web Tokens to work from the backend to the database encrypting the password,
+        we were unable to pass the authentication from front-back-front. With more experience now, 
+        as we moved through the project it will be high on list of future features to implement.
+    </p>
 
     <h3>Sprint 3: Testing Login/Inventory Functionality</h3>
-    <p>Most Valuable Lesson</p>
-    <p>Frustrations</p>
-    <p>Team Role</p>
-    <p>Tasks Completed</p>
-    <p>Implementation Feature Commentary + Evidence</p>
-    <p>Testing Commentary</p>
-    <p>What Went Well</p>
-    <p>What Issues were met and how resolved</p>
-
+    <p>Most Valuable Lesson here was letting the previous sprint run over put added 
+        stress on time to complete this and future sprint. Frustration here was having 
+        to redo components as at this stage, had realised the benefit in breaking them up 
+        into smaller seperate components for performance and usability. Two main features here 
+        were the video on the login page, so it could be reused in Password Reset component and 
+        the add and edit components for the inventory. Initially I wanted to keep consistency 
+        by having them show up in the dashboard-content section like all of the dashboard components
+        but came to the realisation of trying to calling a child component into the grandparent more difficult 
+        than I imagined. But unlike the previous issue of struggling with like the authentication, 
+        I quickly decided to come up with another solution which was to combine the add/edit components 
+        with the inventory component as an inline form, which had been dismissed during design as maybe being the more difficult way.
+        Testing I performed here was writing a unit test, installing jest to test 
+        verification of login.
+    </p>
+    
     <h3>Sprint 4: Weather API + Testing</h3>
-    <p>Most Valuable Lesson</p>
-    <p>Frustrations</p>
-    <p>Team Role</p>
-    <p>Tasks Completed</p>
-    <p>Implementation Feature Commentary + Evidence</p>
-    <p>Testing Commentary</p>
-    <p>What Went Well</p>
-    <p>What Issues were met and how resolved</p>
+    <p>Most Valuable Lesson at this point was the lack of time left due to earlier 
+        over running, putting added strain and needing quicker thinking to solve issues.
+        At this point I was completing Sprint 3 whilst Mariano had started trying to implement 
+        the weather api 5 day forecast, but was whilst connecting was struggling to pick 
+        out the data we needed. Once completing three I was able to jump in and he moved onto testing.
+        Again with time against us I made a quick decision to implement current weather, instead 
+        of five day forecast and make that a future feature. During this implementation I could 
+        see how that could be implemented. 
+    </p>
 
     <h3>Conclusion</h3>
-    <p>Summary of Tasks Completed</p>
-    <p>Reflection on Teamwork</p>
-    
+    <p>I took on a pro-active approach to organisation and planning and creating
+        project management plan to make sure we followed agile principles to increase productivity 
+        and make the project a success. In the execution as I had more experience with front-side and 
+        Mariano with database design, we naturally fit into these roles. However due to our understanding
+        and the transparency of our methods, we could learn exactly what was happening in the code the other was
+        doing, and as such when needed we could jump into solve problems and help contribute. 
+        Our aim out of this project was to showcase what we have learned on the course so far, 
+        and develop skills we didn't have and have something to show in our portfolio. 
+        I consider the project a success as I really developed my skills in react as well as learning,
+        and understanding the backend with node and express more. My confidence in 
+        using git and the importance of committing has also improved. The final thing I have gotten 
+        out of this project is what we planned in the beginning, was that this would have 
+        flexibility and scalability to expand on beyond the timeframe of the project.
+        As evidenced with the <a href="./roadmap.html">roadmap</a>, there is plenty of more life and learning to be had 
+        in this project.
+    </p>
+
   </div>
 </body>
 
