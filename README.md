@@ -1,6 +1,6 @@
 # SolarLifeProject_Presentation
 
-[LiveDemo] (Web Page Link)
+[[LiveDemo] (Web Page Link)](https://hadleyshope.github.io/SolarLifeProject_Presentation/)
 
 ## Overview
 
