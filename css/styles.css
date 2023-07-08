@@ -1,3 +1,11 @@
+.collapsed-nav {
+  display: none;
+}
+
+.expanded-nav {
+  display: block;
+}
+
 .container {
     margin-top: 30px;
   }
